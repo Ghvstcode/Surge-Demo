@@ -41,7 +41,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "surge --project ./build --domain black-request.surge.sh/"
+      "pre-push": "npm run build && surge --project ./build --domain black-request.surge.sh/"
     }
   }
 }
